@@ -1,0 +1,471 @@
+/* body */
+
+
+
+/* header */
+
+h1 {
+  text-align:center;
+  margin:1rem;
+  font-size:3rem;
+  color:silver;
+  font-family: Vijaya;
+  }
+
+/* main */
+
+/* nav*/
+
+a {
+  text-decoration: none;
+  display:block;
+  text-align:center;
+  background:#bebebe;
+  color:#f3f3f3;
+  margin-top:.1rem;
+  }
+
+a:hover{
+  background-color:#000000;
+}
+
+
+
+@media screen and (min-width:768px){
+  a {
+    display:inline-block;
+    background-color:white;
+    color:#bebebe;
+    margin-left:2rem;
+  }
+
+  nav {
+    text-align:center;
+  
+  }
+  
+}
+
+/* section */
+
+/* section - boxes */
+
+
+.box1, .box2, .box3, .box4 {
+  border:1px solid #d5d5d5;
+  border-radius: 1rem;
+  width:49%;
+  height:7rem;
+  display:inline-block;
+  margin-top:1rem;
+
+}
+
+section {
+
+}
+
+.boxes {
+padding-top:1rem;
+ margin:0 auto;
+  width:70%;
+
+}
+
+p {
+ font-size:.5rem;
+  line-height: .7rem;
+  font-family: sans-serif;
+  padding:.5rem;
+}
+
+h3 {
+  text-align:center;
+  margin-top:.4rem;
+}
+
+@media screen and (min-width:768px){
+   
+  .box1, .box2, .box3, .box4 {
+  border:1px solid #d5d5d5;
+  width:24.4%;
+  height:8rem;
+  display:inline-block;
+  margin-top:1rem;
+
+}
+
+  p {
+ font-size:.7rem;
+  line-height: .7rem;
+  font-family: sans-serif;
+  padding:.3rem;
+}
+
+h3 {
+  text-align:center;
+  margin-top:.4rem;
+  font-size:1.3rem;
+}
+   a {
+    font-size:1.5rem;
+
+  } 
+  }
+
+
+@media screen and (min-width:1024px){
+   
+  p {
+ font-size:.9rem;
+  line-height: .8rem;
+  font-family: sans-serif;
+  padding:.3rem;
+}
+
+h3 {
+  text-align:center;
+  margin-top:.4rem;
+  font-size:1.4rem;
+}
+  a {
+    font-size:2rem;
+
+  }
+  
+  h1 {
+  text-align:center;
+  margin:1rem;
+  font-size:4rem;
+  color:silver;
+  font-family: Vijaya;
+  }
+    
+  }
+    
+
+@media screen and (min-width:1440px){
+   
+
+  p {
+ font-size:.9rem;
+  line-height: 1rem;
+  font-family: sans-serif;
+  padding:.3rem;
+}
+
+h3 {
+  text-align:center;
+  margin-top:.4rem;
+  font-size:1.6rem;
+}
+  
+  a {
+    font-size:2.5rem;
+
+  }
+  
+  h1 {
+  text-align:center;
+  margin:1rem;
+  font-size:5rem;
+  color:silver;
+  font-family: Vijaya;
+  }
+    
+  }
+
+@media screen and (min-width:2560px){
+  
+    .box1, .box2, .box3, .box4 {
+  border:1px solid black;
+  width:24.4%;
+  height:15rem;
+  display:inline-block;
+  margin-top:1rem;
+
+}
+
+
+  p {
+ font-size:1.6rem;
+  line-height:2rem;
+  font-family: sans-serif;
+  padding:.3rem;
+}
+
+h3 {
+  text-align:center;
+  margin-top:.4rem;
+  font-size:3rem;
+}
+  a {
+    font-size:3rem;
+
+  }
+  
+  h1 {
+  text-align:center;
+  margin:1rem;
+  font-size:7rem;
+  color:silver;
+  font-family: Vijaya;
+  }
+    
+  }
+
+/* section - about us */
+
+.about-us {
+  width:100%;
+
+  margin-top:2rem;
+ position: relative;
+
+}
+
+img {
+  width:100%;
+  display:inline-block;
+  border-radius: 1rem;
+}
+
+.aboutus-title {
+  position:absolute;
+  top:.1rem;
+  left:.5rem;
+  color:white;
+  font-size:2rem;
+  text-align: center;
+}
+
+.aboutus-content {
+  position:absolute;
+  top:2.5rem;
+  right:1rem;
+  color:white;
+  font-family: Vijaya;
+  font-size:1rem;
+  line-height: 1rem;
+  text-align:center;
+  padding-left:1rem;
+  }
+
+@media screen and (min-width:425px){
+
+
+.aboutus-content {
+  padding-left:1rem;
+  padding-top:1.5rem;
+  font-size:1.5rem;
+  line-height: 1.2rem;
+  }
+  
+}
+
+@media screen and (min-width:768px){
+
+
+.aboutus-content {
+  padding-left:1rem;
+  padding-top:1.5rem;
+  font-size:1.5rem;
+  line-height: 1.2rem;
+  }
+  
+  .aboutus-img {
+    width:100%;
+    height:15rem;
+  }  
+  
+}
+
+@media screen and (min-width:2560px){
+
+
+.aboutus-content {
+  padding-left:1rem;
+  padding-top:1.5rem;
+  font-size:3rem;
+ line-height: 2.5rem;
+  }
+    
+  .aboutus-title {
+    font-size:3.5rem;
+  }
+}
+
+/* services */
+
+.services {
+  width:100%;
+  margin:0 auto;
+  height:10rem;
+  display:inline-block;
+}
+
+.services1, .services2, .services3 {
+  width:25%;
+  height:50%;
+  margin:0 auto;
+  border: 1px solid black;
+  display:inline-block;
+  margin-top:2rem;
+  border-radius:3rem;
+  margin-left:1.2rem;
+}
+
+.serices-price {
+ text-align:center; 
+  padding-top:1rem;
+  font-size:1rem;
+  font-family: Vijaya;
+}
+
+.services1 {
+  background-color:#e3e3e3;
+}
+.services2 {
+  background-color:#cacaca;
+}
+.services3 {
+  background-color:#a5a5a5;
+}
+
+@media screen and (min-width:425px){
+
+  .services1, .services2, .services3 {
+    border-radius:999rem;
+     width:25%;
+    height:65%;
+    margin-left:1.6rem;
+  }
+  .serices-price {
+    font-size:1.3rem;
+  }
+}
+
+@media screen and (min-width:768px){
+
+  .services1, .services2, .services3 {
+    border-radius:9999rem;
+    width:20%;
+    height:100%;
+    margin-left:4.4rem;
+
+  }
+  .serices-price {
+    font-size:2rem;
+    text-align: center;
+    margin-top:2rem;
+  }
+
+}
+@media screen and (min-width:1024px){
+
+  .services1, .services2, .services3 {
+    border-radius:9999rem;
+    width:15%;
+    height:100%;
+    margin-left:8.2rem;
+
+  }
+  .serices-price {
+    font-size:2.3rem;
+    text-align: center;
+    margin-top:2rem;
+  }
+
+}
+
+@media screen and (min-width:1440px){
+
+  .services1, .services2, .services3 {
+    border-radius:9999rem;
+    width:11%;
+    height:100%;
+    margin-left:15rem;
+
+  }
+  .serices-price {
+    font-size:2.3rem;
+    text-align: center;
+    margin-top:2rem;
+  }
+
+}
+
+@media screen and (min-width:2560px){
+
+  .services1, .services2, .services3 {
+    border-radius:9999rem;
+    width:15%;
+    height:250%;
+    margin-left:20rem;
+
+  }
+  .serices-price {
+    font-size:4rem;
+    text-align: center;
+    margin-top:5rem;
+  }
+
+}
+
+/* contact */
+
+.contact {
+  width:100%;
+  height:10rem;
+  border:.1rem solid #c5c5c5;
+  background-color:#eeeeee;
+  border-radius :3rem;
+  font-family: Orator Std;
+  text-align:center;
+  padding-top:2rem;
+  padding-bottom:3rem;
+}
+
+@media screen and (min-width:768px){
+
+  .contact {
+    margin-top:4rem;
+    font-size:1.3rem;
+  }
+
+}
+
+@media screen and (min-width:2560px){
+
+  .contact {
+    margin-top:15rem;
+    font-size:3rem;
+    height:17rem;
+  }
+
+}
+
+/* footer */
+
+.footer {
+  text-align:center;
+  color:black;
+  font-size:.7rem;
+  padding-top:.5rem;
+  border-top:1px solid silver;
+  border-top-right-radius: 2px solid silver;
+}
+
+@media screen and (min-width:768px) {
+  
+  .footer{
+    font-size:1rem;
+  }
+}
+
+@media screen and (min-width:2560px) {
+  
+  .footer{
+    font-size:3rem;
+  }
+}
